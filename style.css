@@ -1,0 +1,132 @@
+/* global css */
+html{
+    scroll-behavior: smooth;
+}
+
+.japanese {
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+/* nav */
+
+nav{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.navbar-brand p {
+    font-size: 10px;
+}
+
+.nav-link{
+    margin-right:50px;
+}
+
+.tombol{
+    color: white;
+    border-radius: 20px;
+    background-color: #ec9700;
+}
+
+.tombol:hover{
+    color: white;
+}
+
+
+/*
+z-index
+2 
+1 - nav
+0 - jumbotron 
+*/
+
+.jumbotron{
+    height: 768px;
+    position: relative;
+    top: -65px;
+    z-index: 0;
+    background-image: url("img/bg_header.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.tombol-scroll{
+    margin-top: 120px;
+    position: relative;
+}
+
+.line-dashed{
+    position: relative;
+    top: 100px;
+}
+
+.bg-main{
+    background-image: url("img/bg_japan.png");
+    background-size: cover;
+    width: 100%; 
+    height: 100%;
+}
+
+.tittle-sc{
+    position: relative;
+    z-index: 1;
+}
+
+.judul-sc{
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+    position: relative;
+    z-index: 1;
+}
+
+.sub-sc{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size:16px;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+}
+
+.sub-gambar-sc{
+    text-align: right;
+    font-size: 52px;
+}
+
+.content-sc{
+    background-image: url("img/orange-box.png");
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    bottom: 30px;
+}
+
+.gambar-sc{
+    margin-top: 50px;
+}
+
+.img-sc{
+    width: 100%;
+}
+
+.kosong{
+    content: '';
+}
+
+
+
+@media screen and (max-width: 1080px){
+/* code here */
+/* jumbotron */
+/* nav */
+}
